@@ -1,0 +1,108 @@
+.main {
+  width: 90%;
+  height: 700px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+
+  &__cards {
+    width: 900px;
+    height: 600px;
+    padding: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background-color: rgb(0, 119, 255);
+    border: hidden;
+    overflow: auto;
+  }
+
+  &__button {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-family: "montserrat";
+    font-weight: 900;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  &__buttonAdd {
+    width: 200px;
+    height: 40px;
+  }
+
+  &__input {
+    width: 300px;
+    height: 40px;
+    padding: 0px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: "montserrat";
+    font-weight: 900;
+  }
+
+  ::placeholder {
+    color: #333333;
+  }
+
+  &__box {
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  &__icon {
+    font-size: 35px;
+    color: rgb(0, 119, 255);
+  }
+
+  &__title {
+    font-family: "montserrat";
+    font-weight: 900;
+    color: #ffffff;
+  }
+
+  &__container {
+    width: 300px;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+
+  &__box {
+    padding: 20px 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // display: none;
+    gap: 30pc;
+    &__cards {
+      width: 90%;
+      height: 400px;
+      margin: auto;
+    }
+  }
+}

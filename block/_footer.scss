@@ -1,0 +1,10 @@
+.footer {
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    &__text {
+        font-family: "montserrat";
+        font-weight: 900;
+        text-align: center;
+    }
+}
